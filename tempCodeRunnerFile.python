@@ -1,0 +1,15 @@
+def Find(self, target, array):
+    i,j = len(array)-1,0
+
+    while(i!=-1 and j!=len(array[0])):
+        if(target<array[i][j]):
+            i--
+        elif:
+            j++
+        else:
+            return 1
+    return 0
+    # write code here
+
+    target = 4
+    array = [[1,2,3,4][2,3,4,5]]
